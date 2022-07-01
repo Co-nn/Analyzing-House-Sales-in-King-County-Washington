@@ -41,20 +41,28 @@ The next recommendation we have for our client is to increase the Square feet of
 
 
 ## Results
-From our final model 
+From our final model we were able to create a function that takes in data about a house and spits out a predicted price for that house with a RSME of \$84,000. We then went on zillow and found multible houses from 2015 to test our model on. It was really quite accurate. There was even a house that was listed about \$470,000 (in 2015) and our predicted price was \$823,000. A few years later it was actually sold for \$837,500.
 
 ## Conclusion
-
+We have 3 recommendations for our client.
+- Use our House Price predictor to find houses that are being listed lower than what they should be worth.
+- After buying the house, look into ways to improve the condition of the house if the house is below average. If the house is average, or above average, then no need to increase condition of house. 
+- After buying the house, look into ways to increase the square feet of the living space of the house. 
 
 ## Future Work
-
+- Investigate if the cost of increasing the condition to the would be worth the value increase of the house. Also doing the same thing to see if the cost of adding living space would be worth the value increase.
+- Another next step would be to gather more relevant data recent data and make another model for more current homes.
 
 
 ## For More Information
 
-
+- [Data](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
+- [Slide Show](https://github.com/Co-nn/Analyzing-House-Sales-in-King-County-Washington/blob/main/Connor%20and%20Cooper.pdf)
+- [Zillow house](https://www.zillow.com/homedetails/2040-43rd-Ave-E-APT-201-Seattle-WA-98112/48925029_zpid/)
 
 ## Repository Structure
+
+```
 ├── Connor                                            <- Rough Working Directory
 |   └── Untitled.ipynb                                <- Rough Jupyter Notebook
 ├── Cooper                                            <- Rough Working Directory
@@ -67,3 +75,5 @@ From our final model
 ├── Connor and Cooper.pdf                             <- Final Slides Presentation
 ├── Final NoteBook.ipynb                              <- Final Jupyter Notebook
 └── README.md                                         <- You Are Here   X
+```
+
