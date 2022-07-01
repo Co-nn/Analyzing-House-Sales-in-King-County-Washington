@@ -55,7 +55,25 @@ We have 3 recommendations for our client.
 
 
 ## For More Information
+
 - [Data](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
 - [Slide Show](https://github.com/Co-nn/Analyzing-House-Sales-in-King-County-Washington/blob/main/Connor%20and%20Cooper.pdf)
 - [Zillow house](https://www.zillow.com/homedetails/2040-43rd-Ave-E-APT-201-Seattle-WA-98112/48925029_zpid/)
+
 ## Repository Structure
+
+```
+├── Connor                                            <- Rough Working Directory
+|   └── Untitled.ipynb                                <- Rough Jupyter Notebook
+├── Cooper                                            <- Rough Working Directory
+|   ├── Cleaning of data to get rid of outliers.ipynb <- Rough Jupyter Notebook data
+|   ├── Condition_vs_Price.png                        <- Graph
+|   ├── House_pic.jpeg                                <- Image
+|   ├── SQFT_Living_vs_Price.png                      <- Graph
+|   └── Exploration of nulls.ipynb                    <- Rough Jupyter Notebook
+├── .gitignore                                        <- Standard python gitignore file
+├── Connor and Cooper.pdf                             <- Final Slides Presentation
+├── Final NoteBook.ipynb                              <- Final Jupyter Notebook
+└── README.md                                         <- You Are Here   X
+```
+
